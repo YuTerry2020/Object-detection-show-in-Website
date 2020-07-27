@@ -1,3 +1,13 @@
+######## Video or WebCam frame catch #########
+#
+# Author: Teng Yang Yu
+# Date: 2020/05/06
+# Description: 
+# This program uses a queue to deal with frame.
+# My notebook GPU can not accept 30 FPS.
+# So I use this code to control the frame
+# frame of the IP.
+
 # import the necessary packages
 from threading import Thread
 import sys
@@ -70,7 +80,7 @@ class FileVideoStream:
 		else:
 			print("restart")
 			self.stopped = True
-			self.stream = cv2.VideoCapture('rtsp://192.168.24.1')
+			self.stream = cv2.VideoCapture('rtsp://XXX.XXX.XXX.XXX')
 			# time.sleep(400)
 			self.stopped = False
 			return frame
