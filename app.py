@@ -1,3 +1,14 @@
+######## Video or WebCam Tensorflow object detection and flask #########
+#
+# Author: Teng Yang Yu
+# Date: 2020/05/06
+# Description: 
+# This program use tensorflow object detection api.
+# And use flask to upload frame to website.
+# It also have a mqtt publish function
+# frame of the IP.
+
+
 from flask import Flask, render_template, Response, session
 from camera import CameraStream
 import cv2
