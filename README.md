@@ -1,5 +1,6 @@
 # object-detection-show-in-website
-This project will present how to upload detection consequence to website and close website and opencv correctly
+* This project will present how to upload detection consequence to website and close website and opencv correctly
+* And give two methods to deal with frame if server or notebook GPU can not accept too quick FPS
 ## Environment
 * cuda (choose version by you os and tensorflow version)
 * cudnn (choose version by you os and tensorflow version)
