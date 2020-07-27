@@ -1,3 +1,13 @@
+######## Video or WebCam frame catch #########
+#
+# Author: Teng Yang Yu
+# Date: 2020/05/06
+# Description: 
+# This program uses a queue to deal with frame.
+# My notebook GPU can not accept 30 FPS.
+# So I use this code to control the frame
+# frame of the IP.
+
 from threading import Thread, Lock
 import cv2
 import numpy as np
